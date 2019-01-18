@@ -1,6 +1,6 @@
 # os-names-client-node
 
-API Client wrapper for [Ordnance Survey Names API](https://www.ordnancesurvey.co.uk/business-and-government/products/os-open-names-api.html).
+API Client wrapper for [Ordnance Survey Names API](https://apidocs.os.uk/docs/os-names-overview).
 
 [![Build Status](https://travis-ci.org/hmcts/os-places-client-node.svg?branch=master)](https://travis-ci.org/hmcts/os-names-client-node.svg?branch=master)  
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)  

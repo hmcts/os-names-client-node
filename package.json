@@ -1,7 +1,7 @@
 {
   "name": "@hmcts/os-names-client",
   "version": "1.0.1",
-  "description": "Ordnance Survey Names client (https://apidocs.os.uk/docs/os-places-postcode)",
+  "description": "Ordnance Survey Names client (https://apidocs.os.uk/docs/os-names-overview)",
   "license": "MIT",
   "repository": "https://github.com/hmcts/os-names-client-node",
   "files": [
