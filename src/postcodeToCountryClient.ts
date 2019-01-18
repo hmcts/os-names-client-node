@@ -14,6 +14,14 @@ export class PostcodeToCountryClient {
             return Promise.reject(new Error('Missing required postcode'))
         }
 
-        return Promise.reject(new Error('Unimplemented'))
+        const uri: string = this.apiUrl + `/opennames/v1/find?query=${postcode}&maxresults=1&key=${this.apiToken}`
+        return this.request.get({
+            json: false,
+            resolveWithFullResponse: true,
+            simple: false,
+            uri: uri
+        }).then((response) => {
+            return response.body.results[0]['GAZETTEER_ENTRY']['COUNTRY']
+        })
     }
 }
