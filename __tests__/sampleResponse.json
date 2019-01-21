@@ -1,0 +1,39 @@
+{
+  "header": {
+    "uri": "https://api.ordnancesurvey.co.uk/opennames/v1/find?query=SW1H%209AJ&maxresults=1&fq=LOCAL_TYPE%3APostcode",
+    "query": "SW1H 9AJ",
+    "format": "JSON",
+    "maxresults": 1,
+    "offset": 0,
+    "totalresults": 1272,
+    "filter": "fq=LOCAL_TYPE:Postcode"
+  },
+  "results": [
+    {
+      "GAZETTEER_ENTRY": {
+        "ID": "SW1H9AJ",
+        "NAMES_URI": "http://data.ordnancesurvey.co.uk/id/postcodeunit/SW1H9AJ",
+        "NAME1": "SW1H 9AJ",
+        "TYPE": "other",
+        "LOCAL_TYPE": "Postcode",
+        "GEOMETRY_X": 529576,
+        "GEOMETRY_Y": 179549,
+        "MOST_DETAIL_VIEW_RES": 3500,
+        "LEAST_DETAIL_VIEW_RES": 18000,
+        "POPULATED_PLACE": "City of Westminster",
+        "POPULATED_PLACE_URI": "http://data.ordnancesurvey.co.uk/id/4000000074559881",
+        "POPULATED_PLACE_TYPE": "http://www.ordnancesurvey.co.uk/xml/codelists/localtype.xml#city",
+        "DISTRICT_BOROUGH": "City of Westminster",
+        "DISTRICT_BOROUGH_URI": "http://data.ordnancesurvey.co.uk/id/7000000000011164",
+        "DISTRICT_BOROUGH_TYPE": "http://data.ordnancesurvey.co.uk/ontology/admingeo/LondonBorough",
+        "COUNTY_UNITARY": "Greater London",
+        "COUNTY_UNITARY_URI": "http://data.ordnancesurvey.co.uk/id/7000000000041441",
+        "COUNTY_UNITARY_TYPE": "http://data.ordnancesurvey.co.uk/ontology/admingeo/GreaterLondonAuthority",
+        "REGION": "London",
+        "REGION_URI": "http://data.ordnancesurvey.co.uk/id/7000000000041428",
+        "COUNTRY": "England",
+        "COUNTRY_URI": "http://data.ordnancesurvey.co.uk/id/country/england"
+      }
+    }
+  ]
+}
