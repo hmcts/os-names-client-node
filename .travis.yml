@@ -2,7 +2,7 @@ language: node_js
 node_js:
 - stable
 script:
-- yarn --version
+- yarn build
 - yarn check --integrity
 - yarn test
 
