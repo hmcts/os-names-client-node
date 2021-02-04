@@ -23,7 +23,7 @@
   "dependencies": {
     "request": "^2.83.0",
     "request-promise-native": "^1.0.5",
-    "set-value": ">=2.0.1",
+    "set-value": ">=3.0.2",
     "mem": ">=4.0.0",
     "braces": ">=2.3.1"
   },
